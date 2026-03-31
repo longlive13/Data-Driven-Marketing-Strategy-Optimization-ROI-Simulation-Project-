@@ -93,6 +93,70 @@ and derives actionable strategies through data-driven insights and what-if simul
 - Certain channel–segment combinations generate consistent losses  
 - Budget reallocation and targeting are critical for ROI optimization  
 
+
+##  What-if Simulation Scenarios
+
+To evaluate how strategic changes impact marketing performance, the following scenarios were designed.
+
+---
+
+###  Scenario 1. Remove Negative ROI Segments
+
+**Objective**  
+Eliminate loss-making segments to improve overall marketing efficiency  
+
+**Hypothesis**  
+Removing segments where cost exceeds revenue will increase overall ROI and reduce wasted budget  
+
+**Key Question**  
+How much does overall ROI improve when all negative ROI segments are removed?
+
+---
+
+###  Scenario 2. Campaign Frequency Cap
+
+**Objective**  
+Limit excessive customer contact to avoid diminishing returns  
+
+**Hypothesis**  
+Reducing campaign frequency will lower unnecessary costs while maintaining most of the revenue, leading to higher ROI  
+
+**Key Question**  
+What happens to ROI when customer contact is limited to a maximum of three times?
+
+---
+
+###  Scenario 3. Focus on Top Segment–Channel Combinations
+
+**Objective**  
+Concentrate budget on high-performing age group–channel combinations  
+
+**Approach**  
+- Calculate ROI for each segment–channel combination  
+- Select the top 20% based on ROI  
+- Retain only those combinations  
+
+**Hypothesis**  
+Focusing only on the best-performing segment–channel combinations will significantly increase ROI by allocating budget more efficiently  
+
+**Key Question**  
+How much can ROI improve when marketing efforts are concentrated on top-performing segment–channel combinations?
+
+---
+
+###  Scenario 4. Remove Inefficient Channel (Phone)
+
+**Objective**  
+Eliminate cost-inefficient channels to improve budget allocation  
+
+**Hypothesis**  
+Removing the Phone channel will reduce high costs with relatively low returns, thereby improving overall ROI  
+
+**Key Question**  
+How does overall ROI change when the Phone channel is excluded from marketing activities?
+
+---
+
 ## What-if Simulation Results
 <img width="640" height="480" alt="whatifscenario" src="https://github.com/user-attachments/assets/abe47e12-0123-4d40-9977-a5f02bc678b5" />
 
