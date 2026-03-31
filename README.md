@@ -4,7 +4,63 @@
 This project analyzes marketing performance across customer segments and channels, 
 and derives actionable strategies through data-driven insights and what-if simulations.
 
-#2. Data & Method
+## 2. Data & Method
+
+### 📊 Data
+
+This project uses the UCI Bank Marketing Dataset, which contains customer information and marketing campaign outcomes.  
+The dataset includes features such as age, job, balance, contact channel, campaign frequency, and conversion results.
+
+Additional engineered features were created to support analysis, including:
+- **age_group**: categorized age segments (e.g., Young, Middle, Senior)  
+- **balance_segment**: customer financial level segmentation  
+- **channel**: marketing channel (Email, SMS, Phone)  
+- **roi**: calculated as revenue divided by cost  
+- **campaign_band**: grouped campaign frequency levels  
+
+---
+
+### ⚙️ Method
+
+The analysis was conducted in three main steps:
+
+#### 1. SQL-Based Aggregation (BigQuery)
+- Aggregated performance metrics by channel, segment, and campaign frequency  
+- Calculated key indicators such as:
+  - Conversion Rate  
+  - Revenue  
+  - Cost  
+  - ROI  
+
+#### 2. Exploratory Data Analysis (EDA)
+- Visualized relationships between:
+  - ROI vs Conversion Rate  
+  - Campaign Frequency vs ROI  
+  - Segment–Channel performance  
+- Identified inefficiencies such as:
+  - ROI illusion (high ROI but low conversion)  
+  - Diminishing returns from repeated contact  
+  - Loss-making segment–channel combinations  
+
+#### 3. What-if Simulation (Python / Pandas)
+- Simulated strategic changes under different conditions:
+  - Removing negative ROI segments  
+  - Limiting campaign frequency  
+  - Focusing on top-performing segment–channel combinations  
+  - Removing inefficient channels  
+- Evaluated impact using:
+  - Total Cost  
+  - Total Revenue  
+  - Overall ROI  
+
+---
+
+### 🛠️ Tech Stack
+
+- **Google BigQuery**: data processing and aggregation  
+- **Python (Pandas, Matplotlib)**: analysis and visualization  
+- **Google Colab**: simulation and experimentation  
+- **Excel**: intermediate data validation and inspection  
 
 #3. Exploratory Analysis
 ##3.1. Optimizing Marketing ROI through Customer Segmentation and Channel Strategy
