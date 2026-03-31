@@ -1,4 +1,4 @@
-# Optimizing-Marketing-ROI-through-Customer-Segmentation-and-Channel-Strategy
+# Data-Driven Marketing Strategy Optimization (ROI Simulation Project)
 
 ##  Objectives
 This project analyzes marketing performance across customer segments and channels, 
